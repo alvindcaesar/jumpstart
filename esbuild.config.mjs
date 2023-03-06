@@ -14,7 +14,7 @@ import path from "path"
 import rails from "esbuild-rails"
 import chokidar from "chokidar"
 import http from "http"
-import { setTimeout } from "timers/promises"
+import { setTimeout } from "timers-promises"
 
 const clients = []
 const entryPoints = [
